@@ -29,8 +29,8 @@ from keras.preprocessing.image import ImageDataGenerator
 
 
 #Dataframes of work
-df_train = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Projetos/Digit_Recognizer/train.csv', engine='python')
-df_test = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Projetos/Digit_Recognizer/test.csv', engine='python')
+df_train = pd.read_csv('/Digit_Recognizer/train.csv')
+df_test = pd.read_csv('/Digit_Recognizer/test.csv')
 
 #Features and target
 X_train = (df_train.iloc[:,1:]).values.astype('float32')
