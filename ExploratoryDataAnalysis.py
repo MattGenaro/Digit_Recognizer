@@ -11,8 +11,8 @@ import seaborn as sns
 import numpy as np
 
 #Dataframes of work
-df_train = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Projetos/Digit_Recognizer/train.csv', engine='python')
-df_test = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Projetos/Digit_Recognizer/test.csv', engine='python')
+df_train = pd.read_csv('/Digit_Recognizer/train.csv'')
+df_test = pd.read_csv('/Digit_Recognizer/test.csv')
 
 #First look into 'train' data
 df_train.head(5)
