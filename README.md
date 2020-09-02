@@ -1,3 +1,8 @@
+# Digit_Recognizer
+
+Modeling a digit recognizer with deep learning. 
+
+
 References:
 
 [1] https://www.kaggle.com/toregil/welcome-to-deep-learning-cnn-99
